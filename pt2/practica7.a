@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <h1> Menú </h1>
+</head>
+<body>
+<ul>
+    <li> Inicio </li>
+    <li> Noticias </li>
+    <ul>
+        <a href="https://chrome.google.com/webstore/detail/recent-searches/jobcfphcbjegddipbcennpjnofgpkjfe?hl=es">Recientes</a>
+        <a href="https://www.eleconomista.es/mas-leidas/">Mas leídas</a>
+        <a href="https://es.statista.com/estadisticas/539088/ranking-de-las-25-principales-marcas-en-el-mundo-por-valor-de-marca/">Mas valoradas</a>
+    </ul>
+    <li> Articulos </li>
+</body>
+</html>
