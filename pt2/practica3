@@ -4,16 +4,18 @@
     <h1> Super Smash Bros. Ultimate DLC FIghters </h1>
 </head>
 <body>
-    <ul>Piranha Plant</ul>
-    <ul>Joker</ul>
-    <ul>Banjo & Kazooie</ul>
-    <ul>Terry</ul>
-    <ul>Byleth</ul>
-    <ul>Min Min</ul>
-    <ul>Steve / Alex</ul>
-    <ul>Sephironth</ul>
-    <ul>Pyra / Mythra</ul>
-    <ul>Kazuya</ul>
-    <ul>Sora</ul>
+    <ul>
+    <li>Piranha Plant</li>
+    <li>Joker</li>
+    <li>Banjo & Kazooie</li>
+    <li>Terry</li>
+    <li>Byleth</li>
+    <li>Min Min</li>
+    <li>Steve / Alex</li>
+    <li>Sephironth</li>
+    <li>Pyra / Mythra</li>
+    <li>Kazuya</li>
+    <li>Sora</li>
+    </ul>
 </body>
 </html>
