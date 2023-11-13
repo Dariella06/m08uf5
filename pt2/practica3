@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <h1> Practica 3</h1>
-</head>
     <h1> Super Smash Bros. Ultimate DLC FIghters </h1>
-    <lu>Piranha Plant</lu>
-    <lu>Joker</lu>
-    <lu>Banjo & Kazooie</lu>
-    <lu>Terry</lu>
-    <lu>Byleth</lu>
-    <lu>Min Min</lu>
-    <lu>Steve / Alex</lu>
-    <lu>Sephironth</lu>
-    <lu>Pyra / Mythra</lu>
-    <lu>Kazuya</lu>
-    <lu>Sora</lu>
+</head>
+    <ul>Piranha Plant</ul> <br> </br>
+    <ul>Joker</ul><br> </br>
+    <ul>Banjo & Kazooie</ul><br> </br>
+    <ul>Terry</ul><br> </br>
+    <ul>Byleth</ul><br> </br>
+    <ul>Min Min</ul><br> </br>
+    <ul>Steve / Alex</ul><br> </br>
+    <ul>Sephironth</ul><br> </br>
+    <ul>Pyra / Mythra</ul><br> </br>
+    <ul>Kazuya</ul><br> </br>
+    <ul>Sora</ul><br> </br>
 <body>
 
 
