@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <body>
-    <dl>
-        <dt>SGML</dt>
-        <dd>- Metalenguaje para la definición de otros lenguajes de marcado</dd>
-        <br>
-        <dt>XML</dt>
-        <dd>- lenguaje basado en SGML y que se emplea para describir datos</dd>
-        <br>
-        <dt>RRS</dt>
-        <dt>GML</dt>
-        <dt>XHTML</dt>
-        <dt>SVG</dt>
-        <dt>XUL</dt>
-        <dd>- Lenguajes derivados de XML para determinadas aplicaciones</dd>
-    </dl>
+<h1>
+hola
+</h1>
 </body>
 </html>
