@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <h1> Menú </h1>
-</head>
-<body>
-<ul>
-    <li> Inicio </li>
-    <li> Noticias </li>
+<h1>Menú</h1>
+	  <ul>
+    <li>Inicio</li>
+    <li><b>Noticias</b></li>
     <ul>
-        <a href="https://chrome.google.com/webstore/detail/recent-searches/jobcfphcbjegddipbcennpjnofgpkjfe?hl=es">Recientes</a>
-        <a href="https://www.eleconomista.es/mas-leidas/">Mas leídas</a>
-        <a href="https://es.statista.com/estadisticas/539088/ranking-de-las-25-principales-marcas-en-el-mundo-por-valor-de-marca/">Mas valoradas</a>
-    </ul>
-    <li> Articulos </li>
+    <li><a href="https://es.wikipedia.org/wiki/F%C3%BAtbol">Fútbol</li> 
+    <li><b><a href="https://discord.com/">Discord</b></li>
+    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</li>
+  </ul>
+    <li>Articulos</li>
+    <ol>
+      <li><b>XHTML</b></li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Otros</li>
+    </ol>
+   <dl>
+      <li>Contacto</li>
+      <dt><i>Email</i></dt>
+      <dd><b>Nombre@gmail.com</b></dd>
+      <dt><i>Telèfono</i></dt>
+      <dd>900 900 900</dd>
+      <dt><i>Fax</i></dt>
+      <dd>900 900 900</dd>
+    </dl>
 </body>
 </html>
