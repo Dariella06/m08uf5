@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html><body>
+h1 {
+    color: blue;
+  }
 
-<h3 style="color:Tomato;">Peru</h3>
-
-<p style="color:DodgerBlue;">El Perú, oficialmente República del Perú,​ y también citada en ocasiones como República Peruana, 
-es un país soberano ubicado en el oeste de América del Sur. Perú tiene una población de 32 440 172 
-habitantes en 2023.13​ Su capital y ciudad más poblada es Lima.​ Con 1 285 215 km², Perú es 
-el decimonoveno país más grande del mundo y el tercero más grande de América del Sur. 
-Adopta la forma de gobierno republicano,14​ democrático,15​ unitario,14​ representativo,15​ presidencialista 
-y con separación de poderes</p>
-
-<p style="color:MediumSeaGreen;">El ceviche es probablemente la comida más famosa de Perú 
-y consiste en un plato hecho de pescado crudo marinado en 
-jugo de limón, chiles y cebollas. Es uno de los alimentos 
-más queridos del Perú. Lima es una ciudad costera. 
-Por lo tanto, podría decirse que tiene el mejor ceviche del Perú</p>
-
-</body>
-</html>
+  h2 {
+    color: red;
+  }
+  h3 {
+    color:  purple;
+  }
+  h4 {
+    color:  orange;
+  }
+  h5 {
+    color:  yellow;
+  }
+  h6 {
+    color: olivedrab;
+  }
