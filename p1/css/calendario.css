@@ -12,4 +12,8 @@
             font-family: Comic Sans MS;
                 
             }
-        
+        table {
+                border-collapse: collapse;
+                width: 50%;
+                margin: 20px auto;
+        }
