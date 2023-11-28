@@ -1,18 +1,18 @@
 
 table {
     font-family: comic sans, arial;
-    border:2px solid black;
+    border:1px solid black;
 }
 
  th {
-    border: 3px solid black;
+    border: 1px solid black;
     text-align: left;
-    padding: 5px;
+    padding: 4px;
 }
 td {
-    border: 3px solid black;
+    border: 1px solid black;
     text-align: left;
-    padding: 5px;
+    padding: 4px;
 }
 h1 {
     color: purple;
