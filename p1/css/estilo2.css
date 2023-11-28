@@ -1,4 +1,26 @@
+        
+body {
+    background-color: powderocean;
+}
 
-        table, th, td {
-          border:1px solid black;
-        }
+th   { 
+   border: 1px solid black;
+    text-align: center;
+font-family: sans-serif, arial;
+}
+        
+h1 {
+    color: ocean;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+font-family: arial, comic sans;
+  }
+
+table {
+    border: 1px solid black;
+    text-align: center;
+font-family: comic sans, arial;
+  }
