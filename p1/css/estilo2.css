@@ -1,14 +1,11 @@
-table, th, td {
+ table, th, td {
     border: 1px solid black;
-    font-family: arial, sans-serif;
+    font-family: comic sans, Monoto;
     text-align: center;
   }
-body {
-    background-color: powderblue;
+ h1 {
+    color: red;
 }
-h1 {
-    color: blue;
-}
-td {
+ td {
     text-align: left;
 }
