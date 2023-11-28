@@ -1,26 +1,14 @@
-        
+table, th, td {
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    text-align: center;
+  }
 body {
-    background-color: powderocean;
+    background-color: powderblue;
 }
-
-th   { 
-   border: 1px solid black;
-    text-align: center;
-font-family: sans-serif, arial;
-}
-        
 h1 {
-    color: ocean;
+    color: blue;
 }
-
 td {
-    border: 1px solid black;
-    text-align: center;
-font-family: arial, comic sans;
-  }
-
-table {
-    border: 1px solid black;
-    text-align: center;
-font-family: comic sans, arial;
-  }
+    text-align: left;
+}
