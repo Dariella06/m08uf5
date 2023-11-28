@@ -7,18 +7,20 @@
             font-family: Georgia;
             
             }
-        td {
+        body {
 
             font-family: Comic Sans MS;
                 
             }
-        table {
+        h1 {
                 border-collapse: collapse;
                 width: 50%;
                 margin: 20px auto;
         }
-        th, td {
+        td {
             border: 2px solid #000000;
             padding: 10px;
             text-align: center;
         }
+
+
