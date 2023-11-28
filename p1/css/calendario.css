@@ -2,25 +2,4 @@
         table, th, td {
           border:1px solid black;
         }
-        th {
-
-            font-family: Georgia;
-            
-            }
-        body {
-
-            font-family: Comic Sans MS;
-                
-            }
-        h1 {
-                border-collapse: collapse;
-                width: 50%;
-                margin: 20px auto;
-        }
-        td {
-            border: 2px solid #000000;
-            padding: 10px;
-            text-align: center;
-        }
-
-
+       
