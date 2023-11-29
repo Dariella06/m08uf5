@@ -21,3 +21,23 @@ table {
   tr:nth-child(even) {
     background-color: #ffffff;
   }
+
+  .Segunda_columna {
+    background-color: #ff4d4d;
+  }
+  
+  .Tercera_columna {
+    background-color: #ff4d4d; 
+  }
+  
+  .Cuarta_columna {
+    background-color: #ff4d4d;
+  }
+  
+  .Quinta_columna {
+    background-color: #ff4d4d;
+  }
+
+.Septima_columna {
+        background-color: #ff4d4d;
+}  
