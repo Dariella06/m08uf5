@@ -1,0 +1,11 @@
+ table, th, td {
+    border: 1px solid black;
+    font-family: comic sans, Monoto;
+    text-align: center;
+  }
+ h1 {
+    color: red;
+}
+ td {
+    text-align: left;
+}
