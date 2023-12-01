@@ -33,3 +33,13 @@ table {
   .smx-m08 {
     background-color: #ff6666; 
   }
+
+.DiesDeClase,
+        .PrimeraColumna,
+        .SegundaColumna,
+        .TerceraColumna,
+        .CuartaColumna,
+        .QuintaColumna,
+        .SextaColumna,
+        .SeptimaColumna {
+            height: 60px; 
