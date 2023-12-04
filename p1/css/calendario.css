@@ -35,3 +35,32 @@ table {
 .SeptimaColumna {
             height: 70px;
         }
+        .M08 {
+          background-color: #3498db; /* Azul */
+          color: white;
+      }
+      
+      .M06 {
+          background-color: #e74c3c; /* Rojo */
+          color: white;
+      }
+      
+      .M04 {
+          background-color: #2ecc71; /* Verde */
+          color: white;
+      }
+      
+      .M07 {
+          background-color: #f39c12; /* Amarillo */
+          color: white;
+      }
+      
+      .Tutoria {
+          background-color: #9b59b6; /* Morado */
+          color: white;
+      }
+      
+      .M012 {
+          background-color: #1abc9c; /* Turquesa */
+          color: white;
+      }
