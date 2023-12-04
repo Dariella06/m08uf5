@@ -35,12 +35,12 @@ table {
   }
 
 .DiesDeClase,
-        .PrimeraColumna,
-        .SegundaColumna,
-        .TerceraColumna,
-        .CuartaColumna,
-        .QuintaColumna,
-        .SextaColumna,
-        .SeptimaColumna {
+.PrimeraColumna,
+.SegundaColumna,
+.TerceraColumna,
+.CuartaColumna,
+.QuintaColumna,
+.SextaColumna,
+.SeptimaColumna {
             height: 70px;
         }
