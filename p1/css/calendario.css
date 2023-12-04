@@ -14,24 +14,24 @@ table {
   
  
   tr:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: white;
   }
   
 
   tr:nth-child(even) {
-    background-color: #ffffff;
+    background-color: white;
   }
 
   .Dies_de_Clase {
-    background-color: #ffcccc;
+    background-color:rgb(236, 174, 184);
   }
   
   .PrimeraColumna {
-    background-color: #ffb3b3; 
+    background-color: rgb(201, 96, 113); 
   }
   
   .smx-m08 {
-    background-color: #ff6666; 
+    background-color: rgb(158, 64, 80); 
   }
 
 .DiesDeClase,
