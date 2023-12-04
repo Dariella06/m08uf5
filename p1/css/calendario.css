@@ -6,12 +6,14 @@ table {
   
   th, td {
     padding: 10px;
-    border: 1px solid rgb(34, 34, 34);
+    border: 1px solid #aa6868;
     text-align: left;
     height: 10%;
     width: 10%;
   }
-  
+ th {
+  background-color:#d6a9a9;
+}
  
   tr:nth-child(odd) {
     background-color: white;
