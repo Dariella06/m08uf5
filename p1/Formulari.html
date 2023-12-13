@@ -1,47 +1,60 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/formulari.css">
   <title>Formulari</title>
+  <link rel="stylesheet" href="../CSS/formulari.css">
 </head>
 <body>
 
-  <form id="rolForm" action="#" method="post">
+  <form action="processar.php" method="post">
+  
     <fieldset>
-      <legend>Formació Bàsica</legend>
-      <label for="nom">Nom:</label>
-      <input type="text" id="nom" name="nom" required>
+      <legend style="color: blue; font-style: italic;">Formación básica</legend>
+      
+      <label for="nombre"><b>Nombre:</b></label>
+      <input type="text" id="nombre" name="nombre" placeholder="nom"required>
 
-      <label for="edat">Edat:</label>
-      <input type="number" id="edat" name="edat" required>
+      <label for="altura"><b>Altura (m):</b></label>
+      <input type="number" id="altura" name="altura" min="0" max="300" value="170" required>
 
-      <label for="estudis">Estudis:</label>
-      <select id="estudis" name="estudis">
+      <label for="email"><b>Email:</b></label>
+      <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" placeholder="exemple@gmail.com" required>
+      
+      <label for="fecha"><b>Fecha de nacimiento:</b></label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="nacionalidad" style="color: orange; font-style: italic;">Nacionalidad:</label>
+      <input type="checkbox" id="nacionalidad" name="nacionalidad[]" value="España">
+        <label for="nacionalidad">Española</label>
+        <input type="checkbox" id="nacionalidad" name="nacionalidad[]" value="España">
+        <label for="nacionalidad">Comunitario(UE)</label>
+        <input type="checkbox" id="nacionalidad" name="nacionalidad[]" value="España">
+        <label for="nacionalidad">No comunitario</label><br></br>
+
+      <label for="estudios"><b>Estudios:</b></label>
+      <select id="estudios" name="estudios" required>
         <option value="ESO">ESO</option>
         <option value="GM">GM</option>
         <option value="GS">GS</option>
-        <option value="Universidad">Universitat</option>
+        <option value="Universidad">Universidad</option>
       </select>
+
+      <fieldset>
+        <legend style="color: red; font-style: italic;">Idiomas</legend>
+        <input type="checkbox" id="idioma1" name="idiomas[]" value="Español">
+        <label for="idioma1">Español</label>
+        <input type="checkbox" id="idioma2" name="idiomas[]" value="Catalán">
+        <label for="idioma2">Catalán</label>
+        <input type="checkbox" id="idioma3" name="idiomas[]" value="Inglés">
+        <label for="idioma3">Inglés</label>
+
+      </fieldset>
+
     </fieldset>
-
-    <fieldset>
-      <legend class="nacionalidad">Nacionalitat</legend>
-      <label for="altura">Altura (en cm):</label>
-      <input type="number" id="altura" name="altura" value="170" min="0" max="300" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="exemple@gmail.com" required>
-    </fieldset>
-
-    <fieldset>
-      <legend class="idiomas">Idiomes</legend>
-      <label for="idiomes">Idiomes:</label>
-      <input type="text" id="idiomes" name="idiomes" required>
-    </fieldset>
-
+    
     <input type="submit" value="Enviar">
+  
   </form>
 
 </body>
