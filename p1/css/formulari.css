@@ -5,13 +5,12 @@
 
   h1 {
     color: rgb(185, 78, 78);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   form {
     max-width: 600px;
     margin: auto;   
-    width: 20px;
   }
   
   fieldset {
