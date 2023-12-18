@@ -1,8 +1,13 @@
-body {
+  body {
     font-family: Arial, sans-serif;
     margin: 20px;
   }
   
+  h1 {
+    color: rgb(185, 78, 78);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
   form {
     max-width: 600px;
     margin: auto;   
@@ -35,7 +40,3 @@ body {
     border-radius: 4px;
   }
 
-  h1 {
-    color: rgb(185, 78, 78);
-    font-family: 'Courier New', Courier, monospace;
-  }
