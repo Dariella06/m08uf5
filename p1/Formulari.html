@@ -8,7 +8,7 @@
 <body>
 
   <form action="processar.php" method="post">
-  
+  </fieldset>
     <fieldset>
       <legend style="color: blue; font-style: italic;">Formación básica</legend>
       
@@ -23,7 +23,7 @@
       
       <label for="fecha"><b>Fecha de nacimiento:</b></label>
       <input type="date" id="fecha" name="fecha" required><br><br>
-
+    </fieldset>
       <label for="nacionalidad" style="color: orange; font-style: italic;">Nacionalidad:</label><br><br>
       <input type="checkbox" id="nacionalidad" name="nacionalidad[]" value="España">
         <label for="nacionalidad">Española</label>
@@ -48,12 +48,10 @@
         <label for="idioma2">Catalán</label>
         <input type="checkbox" id="idioma3" name="idiomas[]" value="Inglés">
         <label for="idioma3">Inglés</label><br><br>
-
+        <input type="submit" value="Enviar" class="enviar">
       </fieldset>
 
     </fieldset>
-    
-    <input type="submit" value="Enviar" class="enviar">
   
   </form>
 
