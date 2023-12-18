@@ -6,6 +6,7 @@ body {
   form {
     max-width: 600px;
     margin: auto;
+    
   }
   
   fieldset {
@@ -36,7 +37,7 @@ body {
     cursor: pointer;
   }
   
-  input[type="submit"]:hover {
+  .enviar {
     background-color: #45a049;
   }
   
