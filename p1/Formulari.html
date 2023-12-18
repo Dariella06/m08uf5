@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <form action="#" method="post">
+  <form action="action.php" method="post">
   <fieldset>
     <fieldset>
       <legend style="color: blue; font-style: italic;">Formación básica</legend>
@@ -33,14 +33,15 @@
         <input type="checkbox" id="nacionalidad" name="nacionalidad[]" value="España">
         <label for="nacionalidad">No comunitario</label><br></br>
       </fieldset>
-      <label for="estudios"><b>Estudios:</b></label><br>
+      <fieldset>
+        <legend class="estudios"><b>Estudios</b></legend><br><br>
       <select id="estudios" name="estudios" required>
         <option value="ESO">ESO</option>
         <option value="GM">GM</option>
         <option value="GS">GS</option>
         <option value="Universidad">Universidad</option><br><br>
       </select>
-
+    </fieldset>
       <fieldset>
         <legend class="idiomas">Idiomas</legend>
         <input type="checkbox" id="idioma1" name="idiomas[]" value="Español">
