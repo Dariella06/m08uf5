@@ -41,5 +41,14 @@
     border-radius: 4px;
   }
   .idiomas {
-    background-color: rgb(240, 240, 171);
+    background-color: rgb(255, 234, 142);
+  }
+  .estudios {
+    background-color: rgb(215, 172, 255);
+  }
+  .nacionalidad {
+    background-color: rgb(151, 255, 177);
+  }
+  .basico {
+    background-color: rgb(223, 193, 248);
   }
