@@ -33,18 +33,23 @@
     margin-bottom: 10px;
     box-sizing: border-box;
   }
+  
   .idiomas {
     background-color: rgb(255, 234, 142);
   }
+
   .estudios {
     background-color: rgb(255, 161, 161);
   }
+
   .nacionalidad {
     background-color: rgb(213, 243, 255);
   }
+
   .basico {
     background-color: rgb(223, 193, 248);
   }
+
   .enviar {
     background-color: #a7a7a7;
     color: white;
@@ -52,6 +57,22 @@
     border: none;
     border-radius: 4px;
   }
+
   .borde {
     border:  5px;
+  }
+
+  .naciona {
+    color: orange;
+    font-style: italic;
+  }
+
+  .idio {
+    color: red; 
+    font-style: italic;
+  }
+
+  .forma {
+    color: blue; 
+    font-style: italic;
   }
