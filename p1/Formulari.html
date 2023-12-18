@@ -9,7 +9,7 @@
 <h1>CURRICULUM</h1>
   <form action="./action.php" method="post">
   <fieldset>
-    <fieldset>
+    <fieldset class="basico">
       <legend style="color: blue; font-style: italic;">Formación básica</legend>
       
       <label for="nombre"><b>Nombre:</b></label><br>
@@ -25,7 +25,7 @@
       <input type="date" id="fecha" name="fecha" required><br><br>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="nacionalidad">
       <legend style="color: orange; font-style: italic;" id="nacionalidad">Nacionalidad </legend><br>
       <input type="radio" id="nacionalidad" name="nacionalidad[]" value="España">
         <label for="nacionalidad">Española</label>
@@ -35,7 +35,7 @@
         <label for="nacionalidad">No comunitario</label><br><br>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="estudios">
         <legend ><b>Estudios</b></legend>
       <select id="estudios" name="estudios" required>
         <option value="ESO">ESO</option>
