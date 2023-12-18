@@ -5,9 +5,7 @@ body {
   
   form {
     max-width: 600px;
-    margin: auto;
-    position: fixed;
-    
+    margin: auto;   
   }
   
   fieldset {
