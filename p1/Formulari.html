@@ -24,6 +24,7 @@
       <label for="fecha"><b>Fecha de nacimiento:</b></label><br>
       <input type="date" id="fecha" name="fecha" required><br><br>
     </fieldset>
+
     <fieldset>
       <legend style="color: orange; font-style: italic;" id="nacionalidad">Nacionalidad </legend><br>
       <input type="radio" id="nacionalidad" name="nacionalidad[]" value="España">
@@ -33,9 +34,9 @@
         <input type="radio" id="nacionalidad" name="nacionalidad[]" value="España">
         <label for="nacionalidad">No comunitario</label><br></br>
       </fieldset>
+
       <fieldset>
         <legend ><b>Estudios</b></legend>
-        <span class="estudios"></span>
       <select id="estudios" name="estudios" required>
         <option value="ESO">ESO</option>
         <option value="GM">GM</option>
@@ -43,6 +44,7 @@
         <option value="Universidad">Universidad</option><br>
       </select>
     </fieldset>
+
       <fieldset>
         <legend style="color: red; font-style: italic;" id="idiomas">Idiomas</legend>
         <input type="checkbox" id="idioma1" name="idiomas[]" value="Español">
@@ -55,14 +57,12 @@
         <label for="idioma4">Chino</label><br>
       </fieldset>
       </br> 
+      
       <fieldset>
         <input type="submit" value="Enviar" class="enviar">
         <input type="reset" value="Cancelar">
       </fieldset>
-
     </fieldset>
-  
   </form>
-
 </body>
 </html>
