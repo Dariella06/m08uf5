@@ -7,8 +7,8 @@
 </head>
 <body>
 <h1>CURRICULUM</h1>
-  <form action="./action.php" method="post">
-  <fieldset>
+  <form action="form.php" method="get">
+  <fieldset class="borde">
     <fieldset class="basico">
       <legend style="color: blue; font-style: italic;"><b>Formación básica</b></legend>
       
@@ -27,11 +27,11 @@
 
     <fieldset class="nacionalidad">
       <legend style="color: orange; font-style: italic;" id="nacionalidad"><b>Nacionalidad</b></legend><br>
-      <input type="radio" id="nacionalidad" name="nacionalidad[]" value="España">
+      <input type="radio" id="nacionalidad" name="nacionalidad" value="España">
         <label for="nacionalidad">Española</label>
-        <input type="radio" id="nacionalidad" name="nacionalidad[]" value="España">
+        <input type="radio" id="nacionalidad" name="nacionalidad" value="Comunnitaria">
         <label for="nacionalidad">Comunitario(UE)</label>
-        <input type="radio" id="nacionalidad" name="nacionalidad[]" value="España">
+        <input type="radio" id="nacionalidad" name="nacionalidad" value="No_Comunitario">
         <label for="nacionalidad">No comunitario</label><br><br>
       </fieldset>
 
