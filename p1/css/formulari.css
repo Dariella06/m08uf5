@@ -16,7 +16,7 @@
   fieldset {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
   }
   
   label {
