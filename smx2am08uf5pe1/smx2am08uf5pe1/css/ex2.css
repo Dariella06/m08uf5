@@ -1,20 +1,25 @@
-p {
-    background-color: red;
+
+legend {
+    background-color: black;
+    color: white;
+}
+
+
+label {
+    display: block;
+    color: #000000;
+  }
+
+form {
     display: inline-block;
-    color: yellow;
-    font-family: Arial;
-}
 
-img {
-    border: 2px dotted red;
-    height: 150px;
-    width: 100px;
 }
-
-li {
-    color: rgb(179, 179, 179);
+input { 
+    font-family: arial;
+} 
+.dades {
+    background-color: rgb(0, 247, 255);
 }
-
-h1 {
-    font-family: Arial;
+.dades2 {
+    background-color: rgb(241, 255, 52);
 }
