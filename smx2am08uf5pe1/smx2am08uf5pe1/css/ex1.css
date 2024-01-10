@@ -1,0 +1,23 @@
+
+tr td {
+    border: 0.5px solid black;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.celeste {
+    background-color: rgb(103, 184, 184);
+}
+
+.azul {
+    background-color: rgb(82, 137, 146);
+}
+
+.naranja {
+    background-color: rgb(231, 112, 43);
+}
+
+.beige {
+    background-color: rgb(238, 171, 109);
+}
