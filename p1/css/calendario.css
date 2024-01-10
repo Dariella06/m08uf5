@@ -17,12 +17,12 @@ table {
   background-color:#d6a9a9;
 }
  
-  tr:nth-child(odd) {
+  tr {
     background-color: white;
   }
   
 
-  tr:nth-child(even) {
+  tr {
     background-color: white;
     height: 70px;
   }
