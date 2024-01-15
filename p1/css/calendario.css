@@ -3,6 +3,7 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
     text-align: center;
+    border: 1; 
   }
   
   th, td {
@@ -15,6 +16,7 @@ table {
   }
  th {
   background-color:#d6a9a9;
+  text-align: center;
 }
  
   tr {
@@ -66,3 +68,10 @@ table {
           background-color: #1abc9c;
           color: white;
       }
+h1 {
+  text-align: center;
+}
+
+pre {
+  text-align: center;
+}
