@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(146, 90, 90);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    width: 100px;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #d9d9d9;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: rgb(136, 70, 70);
+    color: white;
+}
+
+main {
+    float: left;
+    width: 40%;
+    background-color: #e6e6e6;
+    padding: 15px;
+}
+
+article {
+    float: left;
+    width: 20%;
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+  
+  h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
