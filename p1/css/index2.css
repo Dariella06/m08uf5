@@ -56,7 +56,7 @@ nav {
 }
 
 h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav img {
@@ -76,6 +76,7 @@ nav img {
 .footer ul {
     list-style: none;
     padding: 0;
+    height: 100%;
 }
 
 .footer li {
