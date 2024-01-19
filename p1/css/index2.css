@@ -87,6 +87,7 @@ main {
     padding: 10px;
     border: 5px solid  rgb(73, 12, 12);
     height: 688px;
+    background-color: #552f2f;
 }
 
 nav {
@@ -96,6 +97,7 @@ nav {
     padding: 10px;
     border: 5px solid  rgb(73, 12, 12);
     height: 60%;
+    background-color: #ca8282;
 }
 
 h1 {
