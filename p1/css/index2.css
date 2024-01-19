@@ -105,6 +105,11 @@ nav img {
     heigth: 30px;
     border-radius: 20%;
 }
+.mapache  {
+    width: 220px;
+    heigth: 30px;
+    border-radius: 20%;
+}
 
 .footer a:hover {
     background-color: rgb(136, 70, 70);
