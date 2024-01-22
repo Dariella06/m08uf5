@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -69,11 +68,9 @@ nav img {
     width: 420px;
     border-radius: 20%;
 }
-=======
 * {
     box-sizing: border-box;
   }
->>>>>>> 4d2d4edbe44348f7c63a3b46a6511c699cb37e78
 
 .footer {
     padding: 10px;
