@@ -6,47 +6,47 @@
   <link rel="stylesheet" href="../p1/css/formulari.css">
 </head>
 <body>
-<h1>CURRICULUM</h1>
+  <h1>CURRICULUM</h1>
   <form action="form.php" method="get">
-  <fieldset class="borde">
-    <fieldset class="basico">
-      <legend class="forma"><b>Formación básica</b></legend>
-      
-      <label for="nombre"><b>Nombre:</b></label><br>
-      <input type="text" id="nombre" name="nombre" placeholder="elteunom" required><br><br>
+    <fieldset class="borde">
+      <fieldset class="basico">
+        <legend class="forma"><b>Formación básica</b></legend>
+        
+        <label for="nombre"><b>Nombre:</b></label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="elteunom" required><br><br>
 
-      <label for="altura"><b>Altura (m):</b></label><br>
-      <input type="number" id="altura" name="altura" min="0" max="300" value="150" required><br><br>
+        <label for="altura"><b>Altura (m):</b></label><br>
+        <input type="number" id="altura" name="altura" min="0" max="300" value="150" required><br><br>
 
-      <label for="email"><b>Email:</b></label><br>
-      <input type="email" id="email" name="email" pattern="[1-2-3]{3}" placeholder="exemple@gmail.com" required><br><br>
-      
-      <label for="fecha"><b>Fecha de nacimiento:</b></label><br>
-      <input type="date" id="fecha" name="fecha" required><br><br>
-    </fieldset>
+        <label for="email"><b>Email:</b></label><br>
+        <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required><br><br>
+        
+        <label for="fecha"><b>Fecha de nacimiento:</b></label><br>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+      </fieldset>
 
-    <fieldset class="nacionalidad">
-      <legend class="naciona" id="nacionalidad"><b>Nacionalidad</b></legend><br>
-      <input type="radio" id="nacionalidad" name="nacionalidad" value="España">
-        <label for="nacionalidad">Española</label>
-        <input type="radio" id="nacionalidad" name="nacionalidad" value="Comunnitaria">
-        <label for="nacionalidad">Comunitario(UE)</label>
-        <input type="radio" id="nacionalidad" name="nacionalidad" value="No_Comunitario">
-        <label for="nacionalidad">No comunitario</label><br><br>
+      <fieldset class="nacionalidad">
+        <legend class="naciona"><b>Nacionalidad</b></legend><br>
+        <input type="radio" id="nacionalidad_espanola" name="nacionalidad" value="España">
+        <label for="nacionalidad_espanola">Española</label>
+        <input type="radio" id="nacionalidad_comunitario" name="nacionalidad" value="Comunitaria">
+        <label for="nacionalidad_comunitario">Comunitario(UE)</label>
+        <input type="radio" id="nacionalidad_no_comunitario" name="nacionalidad" value="No_Comunitario">
+        <label for="nacionalidad_no_comunitario">No comunitario</label><br><br>
       </fieldset>
 
       <fieldset class="estudios">
-        <legend ><b>Estudios</b></legend>
-      <select id="estudios" name="estudios" required>
-        <option value="ESO">ESO</option>
-        <option value="GM">GM</option>
-        <option value="GS">GS</option>
-        <option value="Universidad">Universidad</option>
-      </select>
-    </fieldset>
+        <legend><b>Estudios</b></legend>
+        <select id="estudios" name="estudios" required>
+          <option value="ESO">ESO</option>
+          <option value="GM">GM</option>
+          <option value="GS">GS</option>
+          <option value="Universidad">Universidad</option>
+        </select>
+      </fieldset>
 
       <fieldset class="idiomas">
-        <legend class="idio" id="idiomas"><b>Idiomas</b></legend>
+        <legend class="idio"><b>Idiomas</b></legend>
         <input type="checkbox" id="idioma1" name="idiomas[]" value="Español">
         <label for="idioma1">Español</label>
         <input type="checkbox" id="idioma2" name="idiomas[]" value="Catalán">
