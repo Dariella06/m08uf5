@@ -131,6 +131,7 @@ aside {
     padding: 10px;
     text-align: center;
     border: 5px solid rgb(73, 12, 12);
+    height: 60%;
 }
 
 h2 {
@@ -174,7 +175,7 @@ h1 {
 
 .shiba {
     width: 210px;
-    height: 291px;
+    height: 292px;
     border-radius: 20%;
 }
 .mapache  {
