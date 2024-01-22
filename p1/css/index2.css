@@ -89,6 +89,7 @@ nav img {
 .footer li {
     padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
 }
 
 .footer a {
@@ -159,6 +160,10 @@ main {
     border: 5px solid  rgb(73, 12, 12);
 }
 
+main img {
+    height: 534px;
+}
+
 nav {
     float: left;
     width: 20%;
@@ -180,7 +185,7 @@ h1 {
 }
 .mapache  {
     width: 210px;
-    height: 289px;
+    height: 290px;
     border-radius: 20%;
 }
 
