@@ -22,6 +22,7 @@ aside {
     padding: 10px;
     text-align: center;
     border: 5px solid rgb(73, 12, 12);
+    height: 60%;
 }
 
 h2 {
@@ -47,6 +48,7 @@ main {
     background-color: #e6e6e6;
     padding: 10px;
     border: 5px solid  rgb(73, 12, 12);
+    height: 60%;
 }
 
 nav {
@@ -55,6 +57,7 @@ nav {
     background-color: #ccc;
     padding: 10px;
     border: 5px solid  rgb(73, 12, 12);
+    height: 60%;
 }
 
 h1 {
