@@ -15,7 +15,7 @@ header img {
     width: 100px;
 }
 
-aside {
+nav {
     float: left;
     width: 20%;
     background-color: #f2f2f2;
@@ -29,7 +29,7 @@ h2 {
     color: #333;
 }
 
-aside a {
+nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     display: block;
@@ -37,7 +37,7 @@ aside a {
     background-color: #d9d9d9;
 }
 
-aside a:hover {
+nav a:hover {
     background-color: rgb(136, 70, 70);
     color: white;
 }
@@ -51,7 +51,7 @@ main {
     height: 60%;
 }
 
-nav {
+article {
     float: left;
     width: 20%;
     background-color: #ccc;
@@ -64,7 +64,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav img {
+article img {
     width: 420px;
     border-radius: 20%;
 }
@@ -125,7 +125,7 @@ header img {
     width: 100px;
 }
 
-aside {
+nav{
     float: left;
     width: 20%;
     background-color: #DD9B8D;
@@ -139,7 +139,7 @@ h2 {
     color: #333;
 }
 
-aside a {
+nav a {
     text-decoration: none;
     color: #000000;
     display: block;
@@ -147,7 +147,7 @@ aside a {
     background-color: #d9d9d9;
 }
 
-aside a:hover {
+nav a:hover {
     background-color: rgb(136, 70, 70);
     color: white;
 }
@@ -164,7 +164,7 @@ main img {
     height: 534px;
 }
 
-nav {
+article {
     float: left;
     width: 20%;
     background-color: #ccc;
